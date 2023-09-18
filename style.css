@@ -56,4 +56,26 @@ form {
 .btn:active {
   box-shadow: none;
   top: 6px; 
-} 
+}
+
+p{
+  text-align: center;
+  color: #fff;
+}
+
+/* animacion de texto */
+@keyframes arcoiris {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  50%{
+    color: aqua;
+  }
+  100% {
+    color: rgb(139, 29, 139);
+  }
+}
+
+.texto-animado {
+  animation: arcoiris 2s linear infinite;
+}
